@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import countriesList from '../countries.json';
+
 class CountriesList extends React.Component {
   state = {
     countries: countriesList,
